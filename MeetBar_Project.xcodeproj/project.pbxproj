@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		10D77917CBC0DD458A5C8AEA /* libPods-MeetBar_ProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE4A0A1BB8F5A5AECC52A47 /* libPods-MeetBar_ProjectTests.a */; };
 		6FAE4A5A1EFA230600B4706C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A591EFA230600B4706C /* main.m */; };
-		6FAE4A5D1EFA230600B4706C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A5C1EFA230600B4706C /* AppDelegate.m */; };
-		6FAE4A601EFA230600B4706C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A5F1EFA230600B4706C /* ViewController.m */; };
 		6FAE4A631EFA230600B4706C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A611EFA230600B4706C /* Main.storyboard */; };
 		6FAE4A651EFA230600B4706C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A641EFA230600B4706C /* Assets.xcassets */; };
 		6FAE4A681EFA230600B4706C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A661EFA230600B4706C /* LaunchScreen.storyboard */; };
 		6FAE4A731EFA230600B4706C /* MeetBar_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A721EFA230600B4706C /* MeetBar_ProjectTests.m */; };
 		6FAE4A7E1EFA230600B4706C /* MeetBar_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A7D1EFA230600B4706C /* MeetBar_ProjectUITests.m */; };
+		6FF640471EFBA1A700956555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6401A1EFBA1A700956555 /* AppDelegate.m */; };
+		6FF640481EFBA1A700956555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6403C1EFBA1A700956555 /* ViewController.m */; };
 		E2E28F18C96722A1AC0DEE2E /* libPods-MeetBar_ProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */; };
 		F16FA63B6DE52C6D9A8882C7 /* libPods-MeetBar_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */; };
 /* End PBXBuildFile section */
@@ -43,10 +43,6 @@
 		438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project.release.xcconfig"; sourceTree = "<group>"; };
 		6FAE4A551EFA230600B4706C /* MeetBar_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetBar_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE4A591EFA230600B4706C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FAE4A5B1EFA230600B4706C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6FAE4A5C1EFA230600B4706C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6FAE4A5E1EFA230600B4706C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6FAE4A5F1EFA230600B4706C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6FAE4A621EFA230600B4706C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FAE4A641EFA230600B4706C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAE4A671EFA230600B4706C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +53,10 @@
 		6FAE4A791EFA230600B4706C /* MeetBar_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetBar_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE4A7D1EFA230600B4706C /* MeetBar_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetBar_ProjectUITests.m; sourceTree = "<group>"; };
 		6FAE4A7F1EFA230600B4706C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF640191EFBA1A700956555 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FF6401A1EFBA1A700956555 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FF6403B1EFBA1A700956555 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FF6403C1EFBA1A700956555 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D7AB75DB7793CB38E8AB012 /* Pods-MeetBar_ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_ProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +118,9 @@
 		6FAE4A571EFA230600B4706C /* MeetBar_Project */ = {
 			isa = PBXGroup;
 			children = (
-				6FAE4A5B1EFA230600B4706C /* AppDelegate.h */,
-				6FAE4A5C1EFA230600B4706C /* AppDelegate.m */,
-				6FAE4A5E1EFA230600B4706C /* ViewController.h */,
-				6FAE4A5F1EFA230600B4706C /* ViewController.m */,
+				6FF640181EFBA1A700956555 /* MBAppDelegate */,
+				6FF6401B1EFBA1A700956555 /* MBClass */,
+				6FF640431EFBA1A700956555 /* MBExpand */,
 				6FAE4A611EFA230600B4706C /* Main.storyboard */,
 				6FAE4A641EFA230600B4706C /* Assets.xcassets */,
 				6FAE4A661EFA230600B4706C /* LaunchScreen.storyboard */,
@@ -155,6 +154,351 @@
 				6FAE4A7F1EFA230600B4706C /* Info.plist */,
 			);
 			path = MeetBar_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		6FF640181EFBA1A700956555 /* MBAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6FF640191EFBA1A700956555 /* AppDelegate.h */,
+				6FF6401A1EFBA1A700956555 /* AppDelegate.m */,
+			);
+			path = MBAppDelegate;
+			sourceTree = "<group>";
+		};
+		6FF6401B1EFBA1A700956555 /* MBClass */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6401C1EFBA1A700956555 /* MBBase */,
+				6FF640221EFBA1A700956555 /* MBContact */,
+				6FF640281EFBA1A700956555 /* MBLogin */,
+				6FF6402E1EFBA1A700956555 /* MBMeetingBar */,
+				6FF640341EFBA1A700956555 /* MBMessage */,
+				6FF6403A1EFBA1A700956555 /* MBOther */,
+				6FF6403D1EFBA1A700956555 /* MBProfile */,
+			);
+			path = MBClass;
+			sourceTree = "<group>";
+		};
+		6FF6401C1EFBA1A700956555 /* MBBase */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6401D1EFBA1A700956555 /* Model */,
+				6FF6401E1EFBA1A700956555 /* Others */,
+				6FF6401F1EFBA1A700956555 /* Request */,
+				6FF640201EFBA1A700956555 /* View */,
+				6FF640211EFBA1A700956555 /* ViewController */,
+			);
+			path = MBBase;
+			sourceTree = "<group>";
+		};
+		6FF6401D1EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF6401E1EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF6401F1EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF640201EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF640211EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF640221EFBA1A700956555 /* MBContact */ = {
+			isa = PBXGroup;
+			children = (
+				6FF640231EFBA1A700956555 /* Model */,
+				6FF640241EFBA1A700956555 /* Others */,
+				6FF640251EFBA1A700956555 /* Request */,
+				6FF640261EFBA1A700956555 /* View */,
+				6FF640271EFBA1A700956555 /* ViewController */,
+			);
+			path = MBContact;
+			sourceTree = "<group>";
+		};
+		6FF640231EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF640241EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF640251EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF640261EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF640271EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF640281EFBA1A700956555 /* MBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6FF640291EFBA1A700956555 /* Model */,
+				6FF6402A1EFBA1A700956555 /* Others */,
+				6FF6402B1EFBA1A700956555 /* Request */,
+				6FF6402C1EFBA1A700956555 /* View */,
+				6FF6402D1EFBA1A700956555 /* ViewController */,
+			);
+			path = MBLogin;
+			sourceTree = "<group>";
+		};
+		6FF640291EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF6402A1EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF6402B1EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF6402C1EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF6402D1EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF6402E1EFBA1A700956555 /* MBMeetingBar */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6402F1EFBA1A700956555 /* Model */,
+				6FF640301EFBA1A700956555 /* Others */,
+				6FF640311EFBA1A700956555 /* Request */,
+				6FF640321EFBA1A700956555 /* View */,
+				6FF640331EFBA1A700956555 /* ViewController */,
+			);
+			path = MBMeetingBar;
+			sourceTree = "<group>";
+		};
+		6FF6402F1EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF640301EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF640311EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF640321EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF640331EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF640341EFBA1A700956555 /* MBMessage */ = {
+			isa = PBXGroup;
+			children = (
+				6FF640351EFBA1A700956555 /* Model */,
+				6FF640361EFBA1A700956555 /* Others */,
+				6FF640371EFBA1A700956555 /* Request */,
+				6FF640381EFBA1A700956555 /* View */,
+				6FF640391EFBA1A700956555 /* ViewController */,
+			);
+			path = MBMessage;
+			sourceTree = "<group>";
+		};
+		6FF640351EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF640361EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF640371EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF640381EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF640391EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF6403A1EFBA1A700956555 /* MBOther */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6403B1EFBA1A700956555 /* ViewController.h */,
+				6FF6403C1EFBA1A700956555 /* ViewController.m */,
+			);
+			path = MBOther;
+			sourceTree = "<group>";
+		};
+		6FF6403D1EFBA1A700956555 /* MBProfile */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6403E1EFBA1A700956555 /* Model */,
+				6FF6403F1EFBA1A700956555 /* Others */,
+				6FF640401EFBA1A700956555 /* Request */,
+				6FF640411EFBA1A700956555 /* View */,
+				6FF640421EFBA1A700956555 /* ViewController */,
+			);
+			path = MBProfile;
+			sourceTree = "<group>";
+		};
+		6FF6403E1EFBA1A700956555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF6403F1EFBA1A700956555 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6FF640401EFBA1A700956555 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6FF640411EFBA1A700956555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF640421EFBA1A700956555 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6FF640431EFBA1A700956555 /* MBExpand */ = {
+			isa = PBXGroup;
+			children = (
+				6FF640441EFBA1A700956555 /* MBCategory */,
+				6FF640451EFBA1A700956555 /* MBConfig */,
+				6FF640461EFBA1A700956555 /* MBUtils */,
+			);
+			path = MBExpand;
+			sourceTree = "<group>";
+		};
+		6FF640441EFBA1A700956555 /* MBCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MBCategory;
+			sourceTree = "<group>";
+		};
+		6FF640451EFBA1A700956555 /* MBConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MBConfig;
+			sourceTree = "<group>";
+		};
+		6FF640461EFBA1A700956555 /* MBUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MBUtils;
 			sourceTree = "<group>";
 		};
 		E475D191653C128337EDA6B2 /* Frameworks */ = {
@@ -464,8 +808,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAE4A601EFA230600B4706C /* ViewController.m in Sources */,
-				6FAE4A5D1EFA230600B4706C /* AppDelegate.m in Sources */,
+				6FF640481EFBA1A700956555 /* ViewController.m in Sources */,
+				6FF640471EFBA1A700956555 /* AppDelegate.m in Sources */,
 				6FAE4A5A1EFA230600B4706C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -712,6 +1056,7 @@
 				6FAE4A841EFA230600B4706C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FAE4A851EFA230600B4706C /* Build configuration list for PBXNativeTarget "MeetBar_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -720,6 +1065,7 @@
 				6FAE4A871EFA230600B4706C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FAE4A881EFA230600B4706C /* Build configuration list for PBXNativeTarget "MeetBar_ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +1074,7 @@
 				6FAE4A8A1EFA230600B4706C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
