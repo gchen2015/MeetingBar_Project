@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D77917CBC0DD458A5C8AEA /* libPods-MeetBar_ProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE4A0A1BB8F5A5AECC52A47 /* libPods-MeetBar_ProjectTests.a */; };
 		6FAE4A5A1EFA230600B4706C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A591EFA230600B4706C /* main.m */; };
 		6FAE4A5D1EFA230600B4706C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A5C1EFA230600B4706C /* AppDelegate.m */; };
 		6FAE4A601EFA230600B4706C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A5F1EFA230600B4706C /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		6FAE4A681EFA230600B4706C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A661EFA230600B4706C /* LaunchScreen.storyboard */; };
 		6FAE4A731EFA230600B4706C /* MeetBar_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A721EFA230600B4706C /* MeetBar_ProjectTests.m */; };
 		6FAE4A7E1EFA230600B4706C /* MeetBar_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A7D1EFA230600B4706C /* MeetBar_ProjectUITests.m */; };
+		E2E28F18C96722A1AC0DEE2E /* libPods-MeetBar_ProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */; };
+		F16FA63B6DE52C6D9A8882C7 /* libPods-MeetBar_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C121A540BE2ABA3676E4A18 /* Pods-MeetBar_ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		365CB82FF5FF1011B756A538 /* Pods-MeetBar_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project.release.xcconfig"; sourceTree = "<group>"; };
 		6FAE4A551EFA230600B4706C /* MeetBar_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetBar_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE4A591EFA230600B4706C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FAE4A5B1EFA230600B4706C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		6FAE4A791EFA230600B4706C /* MeetBar_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetBar_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE4A7D1EFA230600B4706C /* MeetBar_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetBar_ProjectUITests.m; sourceTree = "<group>"; };
 		6FAE4A7F1EFA230600B4706C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7AB75DB7793CB38E8AB012 /* Pods-MeetBar_ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_ProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE4A0A1BB8F5A5AECC52A47 /* libPods-MeetBar_ProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_ProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13ECE7E8705A8BCE34F31EE /* Pods-MeetBar_ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectTests/Pods-MeetBar_ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1B3447C84A6C059E492E4EB /* Pods-MeetBar_ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectTests/Pods-MeetBar_ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16FA63B6DE52C6D9A8882C7 /* libPods-MeetBar_Project.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D77917CBC0DD458A5C8AEA /* libPods-MeetBar_ProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E28F18C96722A1AC0DEE2E /* libPods-MeetBar_ProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				6FAE4A711EFA230600B4706C /* MeetBar_ProjectTests */,
 				6FAE4A7C1EFA230600B4706C /* MeetBar_ProjectUITests */,
 				6FAE4A561EFA230600B4706C /* Products */,
+				EB144C133E49D9D4319443AB /* Pods */,
+				E475D191653C128337EDA6B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = MeetBar_ProjectUITests;
 			sourceTree = "<group>";
 		};
+		E475D191653C128337EDA6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */,
+				BFE4A0A1BB8F5A5AECC52A47 /* libPods-MeetBar_ProjectTests.a */,
+				BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB144C133E49D9D4319443AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365CB82FF5FF1011B756A538 /* Pods-MeetBar_Project.debug.xcconfig */,
+				438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */,
+				F1B3447C84A6C059E492E4EB /* Pods-MeetBar_ProjectTests.debug.xcconfig */,
+				C13ECE7E8705A8BCE34F31EE /* Pods-MeetBar_ProjectTests.release.xcconfig */,
+				9D7AB75DB7793CB38E8AB012 /* Pods-MeetBar_ProjectUITests.debug.xcconfig */,
+				2C121A540BE2ABA3676E4A18 /* Pods-MeetBar_ProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FAE4A821EFA230600B4706C /* Build configuration list for PBXNativeTarget "MeetBar_Project" */;
 			buildPhases = (
+				E2C8CEE8986036DD313058DC /* [CP] Check Pods Manifest.lock */,
 				6FAE4A511EFA230600B4706C /* Sources */,
 				6FAE4A521EFA230600B4706C /* Frameworks */,
 				6FAE4A531EFA230600B4706C /* Resources */,
+				1AF068BE278411F810645BC4 /* [CP] Embed Pods Frameworks */,
+				36EED73D4728F68E526E8C5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FAE4A851EFA230600B4706C /* Build configuration list for PBXNativeTarget "MeetBar_ProjectTests" */;
 			buildPhases = (
+				41D1E2619B3463D7193BB75E /* [CP] Check Pods Manifest.lock */,
 				6FAE4A6A1EFA230600B4706C /* Sources */,
 				6FAE4A6B1EFA230600B4706C /* Frameworks */,
 				6FAE4A6C1EFA230600B4706C /* Resources */,
+				51F52065FACDBCB7B03085F3 /* [CP] Embed Pods Frameworks */,
+				29C4EE371AC176A3F5E6D91A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FAE4A881EFA230600B4706C /* Build configuration list for PBXNativeTarget "MeetBar_ProjectUITests" */;
 			buildPhases = (
+				DEA30CB2EFA379EF04D6BD7C /* [CP] Check Pods Manifest.lock */,
 				6FAE4A751EFA230600B4706C /* Sources */,
 				6FAE4A761EFA230600B4706C /* Frameworks */,
 				6FAE4A771EFA230600B4706C /* Resources */,
+				F7AD4A23AB2F574D13059DDE /* [CP] Embed Pods Frameworks */,
+				F365DC506825FDB8315A2C14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +320,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF068BE278411F810645BC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C4EE371AC176A3F5E6D91A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_ProjectTests/Pods-MeetBar_ProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EED73D4728F68E526E8C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D1E2619B3463D7193BB75E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51F52065FACDBCB7B03085F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_ProjectTests/Pods-MeetBar_ProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA30CB2EFA379EF04D6BD7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C8CEE8986036DD313058DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F365DC506825FDB8315A2C14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AD4A23AB2F574D13059DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6FAE4A511EFA230600B4706C /* Sources */ = {
@@ -426,6 +613,7 @@
 		};
 		6FAE4A831EFA230600B4706C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365CB82FF5FF1011B756A538 /* Pods-MeetBar_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
@@ -439,6 +627,7 @@
 		};
 		6FAE4A841EFA230600B4706C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
@@ -452,6 +641,7 @@
 		};
 		6FAE4A861EFA230600B4706C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B3447C84A6C059E492E4EB /* Pods-MeetBar_ProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
@@ -465,6 +655,7 @@
 		};
 		6FAE4A871EFA230600B4706C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13ECE7E8705A8BCE34F31EE /* Pods-MeetBar_ProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
@@ -478,6 +669,7 @@
 		};
 		6FAE4A891EFA230600B4706C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7AB75DB7793CB38E8AB012 /* Pods-MeetBar_ProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
 				INFOPLIST_FILE = MeetBar_ProjectUITests/Info.plist;
@@ -490,6 +682,7 @@
 		};
 		6FAE4A8A1EFA230600B4706C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C121A540BE2ABA3676E4A18 /* Pods-MeetBar_ProjectUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
 				INFOPLIST_FILE = MeetBar_ProjectUITests/Info.plist;
