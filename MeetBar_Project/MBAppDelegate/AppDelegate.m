@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MBTabBarController.h"
+#import "MBPlusButtonSubclass.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    [MBPlusButtonSubclass registerPlusButton];
+    MBTabBarController *tabBarController = [[MBTabBarController alloc] init];
+    [self.window setRootViewController:tabBarController];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

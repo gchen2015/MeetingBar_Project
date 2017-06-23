@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		10D77917CBC0DD458A5C8AEA /* libPods-MeetBar_ProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE4A0A1BB8F5A5AECC52A47 /* libPods-MeetBar_ProjectTests.a */; };
+		6F9D5FFE1EFBCA7F001B8BEF /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D5FFD1EFBCA7F001B8BEF /* MBTabBarController.m */; };
+		6F9D60011EFBCAB4001B8BEF /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60001EFBCAB4001B8BEF /* MBNavigationController.m */; };
+		6F9D60041EFBCB29001B8BEF /* MBMeetBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60031EFBCB29001B8BEF /* MBMeetBarViewController.m */; };
+		6F9D60071EFBCB54001B8BEF /* MBConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60061EFBCB54001B8BEF /* MBConversationListViewController.m */; };
+		6F9D600A1EFBCB6F001B8BEF /* MBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60091EFBCB6F001B8BEF /* MBProfileViewController.m */; };
+		6F9D600D1EFBCB82001B8BEF /* MBContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D600C1EFBCB82001B8BEF /* MBContactViewController.m */; };
+		6F9D60111EFBCCD8001B8BEF /* MBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60101EFBCCD8001B8BEF /* MBLoginViewController.m */; };
+		6F9D60141EFBCD07001B8BEF /* MBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D60131EFBCD07001B8BEF /* MBBaseViewController.m */; };
 		6FAE4A5A1EFA230600B4706C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A591EFA230600B4706C /* main.m */; };
 		6FAE4A631EFA230600B4706C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A611EFA230600B4706C /* Main.storyboard */; };
 		6FAE4A651EFA230600B4706C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE4A641EFA230600B4706C /* Assets.xcassets */; };
@@ -16,6 +24,7 @@
 		6FAE4A7E1EFA230600B4706C /* MeetBar_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4A7D1EFA230600B4706C /* MeetBar_ProjectUITests.m */; };
 		6FF640471EFBA1A700956555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6401A1EFBA1A700956555 /* AppDelegate.m */; };
 		6FF640481EFBA1A700956555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6403C1EFBA1A700956555 /* ViewController.m */; };
+		6FFDE18D1EFCAED800212E40 /* MBPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDE18C1EFCAED800212E40 /* MBPlusButtonSubclass.m */; };
 		E2E28F18C96722A1AC0DEE2E /* libPods-MeetBar_ProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */; };
 		F16FA63B6DE52C6D9A8882C7 /* libPods-MeetBar_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */; };
 /* End PBXBuildFile section */
@@ -41,6 +50,25 @@
 		2C121A540BE2ABA3676E4A18 /* Pods-MeetBar_ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		365CB82FF5FF1011B756A538 /* Pods-MeetBar_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_Project/Pods-MeetBar_Project.release.xcconfig"; sourceTree = "<group>"; };
+		6F9D5FFB1EFBC962001B8BEF /* MBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPrefixHeader.pch; sourceTree = "<group>"; };
+		6F9D5FFC1EFBCA7E001B8BEF /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
+		6F9D5FFD1EFBCA7F001B8BEF /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
+		6F9D5FFF1EFBCAB4001B8BEF /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
+		6F9D60001EFBCAB4001B8BEF /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
+		6F9D60021EFBCB29001B8BEF /* MBMeetBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMeetBarViewController.h; sourceTree = "<group>"; };
+		6F9D60031EFBCB29001B8BEF /* MBMeetBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMeetBarViewController.m; sourceTree = "<group>"; };
+		6F9D60051EFBCB54001B8BEF /* MBConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBConversationListViewController.h; sourceTree = "<group>"; };
+		6F9D60061EFBCB54001B8BEF /* MBConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBConversationListViewController.m; sourceTree = "<group>"; };
+		6F9D60081EFBCB6F001B8BEF /* MBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileViewController.h; sourceTree = "<group>"; };
+		6F9D60091EFBCB6F001B8BEF /* MBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProfileViewController.m; sourceTree = "<group>"; };
+		6F9D600B1EFBCB82001B8BEF /* MBContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBContactViewController.h; sourceTree = "<group>"; };
+		6F9D600C1EFBCB82001B8BEF /* MBContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBContactViewController.m; sourceTree = "<group>"; };
+		6F9D600E1EFBCBF5001B8BEF /* MBCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCommon.h; sourceTree = "<group>"; };
+		6F9D600F1EFBCCD8001B8BEF /* MBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLoginViewController.h; sourceTree = "<group>"; };
+		6F9D60101EFBCCD8001B8BEF /* MBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLoginViewController.m; sourceTree = "<group>"; };
+		6F9D60121EFBCD07001B8BEF /* MBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBaseViewController.h; sourceTree = "<group>"; };
+		6F9D60131EFBCD07001B8BEF /* MBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBaseViewController.m; sourceTree = "<group>"; };
+		6F9D60151EFBCD63001B8BEF /* MBThirdLibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBThirdLibs.h; sourceTree = "<group>"; };
 		6FAE4A551EFA230600B4706C /* MeetBar_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetBar_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE4A591EFA230600B4706C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FAE4A621EFA230600B4706C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +85,8 @@
 		6FF6401A1EFBA1A700956555 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6FF6403B1EFBA1A700956555 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6FF6403C1EFBA1A700956555 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FFDE18B1EFCAED800212E40 /* MBPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPlusButtonSubclass.h; sourceTree = "<group>"; };
+		6FFDE18C1EFCAED800212E40 /* MBPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPlusButtonSubclass.m; sourceTree = "<group>"; };
 		9D7AB75DB7793CB38E8AB012 /* Pods-MeetBar_ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetBar_ProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetBar_ProjectUITests/Pods-MeetBar_ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B04BD1570C54A8A18982D250 /* libPods-MeetBar_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9120CAEEA6483C05D5D68E /* libPods-MeetBar_ProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetBar_ProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +150,7 @@
 			children = (
 				6FF640181EFBA1A700956555 /* MBAppDelegate */,
 				6FF6401B1EFBA1A700956555 /* MBClass */,
-				6FF640431EFBA1A700956555 /* MBExpand */,
+				6FF640431EFBA1A700956555 /* MBExpand(扩展) */,
 				6FAE4A611EFA230600B4706C /* Main.storyboard */,
 				6FAE4A641EFA230600B4706C /* Assets.xcassets */,
 				6FAE4A661EFA230600B4706C /* LaunchScreen.storyboard */,
@@ -168,18 +198,18 @@
 		6FF6401B1EFBA1A700956555 /* MBClass */ = {
 			isa = PBXGroup;
 			children = (
-				6FF6401C1EFBA1A700956555 /* MBBase */,
-				6FF640221EFBA1A700956555 /* MBContact */,
-				6FF640281EFBA1A700956555 /* MBLogin */,
-				6FF6402E1EFBA1A700956555 /* MBMeetingBar */,
-				6FF640341EFBA1A700956555 /* MBMessage */,
-				6FF6403A1EFBA1A700956555 /* MBOther */,
-				6FF6403D1EFBA1A700956555 /* MBProfile */,
+				6FF6401C1EFBA1A700956555 /* MBBase(基类) */,
+				6FF640221EFBA1A700956555 /* MBContact(通讯录) */,
+				6FF640281EFBA1A700956555 /* MBLogin(登录) */,
+				6FF6402E1EFBA1A700956555 /* MBMeetingBar(首页) */,
+				6FF640341EFBA1A700956555 /* MBMessage(消息) */,
+				6FF6403A1EFBA1A700956555 /* MBOther(其它) */,
+				6FF6403D1EFBA1A700956555 /* MBProfile(我的) */,
 			);
 			path = MBClass;
 			sourceTree = "<group>";
 		};
-		6FF6401C1EFBA1A700956555 /* MBBase */ = {
+		6FF6401C1EFBA1A700956555 /* MBBase(基类) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF6401D1EFBA1A700956555 /* Model */,
@@ -188,6 +218,7 @@
 				6FF640201EFBA1A700956555 /* View */,
 				6FF640211EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBBase(基类)";
 			path = MBBase;
 			sourceTree = "<group>";
 		};
@@ -215,6 +246,8 @@
 		6FF640201EFBA1A700956555 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6FFDE18B1EFCAED800212E40 /* MBPlusButtonSubclass.h */,
+				6FFDE18C1EFCAED800212E40 /* MBPlusButtonSubclass.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,11 +255,17 @@
 		6FF640211EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D5FFC1EFBCA7E001B8BEF /* MBTabBarController.h */,
+				6F9D5FFD1EFBCA7F001B8BEF /* MBTabBarController.m */,
+				6F9D5FFF1EFBCAB4001B8BEF /* MBNavigationController.h */,
+				6F9D60001EFBCAB4001B8BEF /* MBNavigationController.m */,
+				6F9D60121EFBCD07001B8BEF /* MBBaseViewController.h */,
+				6F9D60131EFBCD07001B8BEF /* MBBaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF640221EFBA1A700956555 /* MBContact */ = {
+		6FF640221EFBA1A700956555 /* MBContact(通讯录) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF640231EFBA1A700956555 /* Model */,
@@ -235,6 +274,7 @@
 				6FF640261EFBA1A700956555 /* View */,
 				6FF640271EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBContact(通讯录)";
 			path = MBContact;
 			sourceTree = "<group>";
 		};
@@ -269,11 +309,13 @@
 		6FF640271EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D600B1EFBCB82001B8BEF /* MBContactViewController.h */,
+				6F9D600C1EFBCB82001B8BEF /* MBContactViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF640281EFBA1A700956555 /* MBLogin */ = {
+		6FF640281EFBA1A700956555 /* MBLogin(登录) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF640291EFBA1A700956555 /* Model */,
@@ -282,6 +324,7 @@
 				6FF6402C1EFBA1A700956555 /* View */,
 				6FF6402D1EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBLogin(登录)";
 			path = MBLogin;
 			sourceTree = "<group>";
 		};
@@ -316,11 +359,13 @@
 		6FF6402D1EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D600F1EFBCCD8001B8BEF /* MBLoginViewController.h */,
+				6F9D60101EFBCCD8001B8BEF /* MBLoginViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF6402E1EFBA1A700956555 /* MBMeetingBar */ = {
+		6FF6402E1EFBA1A700956555 /* MBMeetingBar(首页) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF6402F1EFBA1A700956555 /* Model */,
@@ -329,6 +374,7 @@
 				6FF640321EFBA1A700956555 /* View */,
 				6FF640331EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBMeetingBar(首页)";
 			path = MBMeetingBar;
 			sourceTree = "<group>";
 		};
@@ -363,11 +409,13 @@
 		6FF640331EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D60021EFBCB29001B8BEF /* MBMeetBarViewController.h */,
+				6F9D60031EFBCB29001B8BEF /* MBMeetBarViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF640341EFBA1A700956555 /* MBMessage */ = {
+		6FF640341EFBA1A700956555 /* MBMessage(消息) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF640351EFBA1A700956555 /* Model */,
@@ -376,6 +424,7 @@
 				6FF640381EFBA1A700956555 /* View */,
 				6FF640391EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBMessage(消息)";
 			path = MBMessage;
 			sourceTree = "<group>";
 		};
@@ -410,20 +459,23 @@
 		6FF640391EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D60051EFBCB54001B8BEF /* MBConversationListViewController.h */,
+				6F9D60061EFBCB54001B8BEF /* MBConversationListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF6403A1EFBA1A700956555 /* MBOther */ = {
+		6FF6403A1EFBA1A700956555 /* MBOther(其它) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF6403B1EFBA1A700956555 /* ViewController.h */,
 				6FF6403C1EFBA1A700956555 /* ViewController.m */,
 			);
+			name = "MBOther(其它)";
 			path = MBOther;
 			sourceTree = "<group>";
 		};
-		6FF6403D1EFBA1A700956555 /* MBProfile */ = {
+		6FF6403D1EFBA1A700956555 /* MBProfile(我的) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF6403E1EFBA1A700956555 /* Model */,
@@ -432,6 +484,7 @@
 				6FF640411EFBA1A700956555 /* View */,
 				6FF640421EFBA1A700956555 /* ViewController */,
 			);
+			name = "MBProfile(我的)";
 			path = MBProfile;
 			sourceTree = "<group>";
 		};
@@ -466,17 +519,20 @@
 		6FF640421EFBA1A700956555 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D60081EFBCB6F001B8BEF /* MBProfileViewController.h */,
+				6F9D60091EFBCB6F001B8BEF /* MBProfileViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		6FF640431EFBA1A700956555 /* MBExpand */ = {
+		6FF640431EFBA1A700956555 /* MBExpand(扩展) */ = {
 			isa = PBXGroup;
 			children = (
 				6FF640441EFBA1A700956555 /* MBCategory */,
 				6FF640451EFBA1A700956555 /* MBConfig */,
 				6FF640461EFBA1A700956555 /* MBUtils */,
 			);
+			name = "MBExpand(扩展)";
 			path = MBExpand;
 			sourceTree = "<group>";
 		};
@@ -490,6 +546,9 @@
 		6FF640451EFBA1A700956555 /* MBConfig */ = {
 			isa = PBXGroup;
 			children = (
+				6F9D5FFB1EFBC962001B8BEF /* MBPrefixHeader.pch */,
+				6F9D600E1EFBCBF5001B8BEF /* MBCommon.h */,
+				6F9D60151EFBCD63001B8BEF /* MBThirdLibs.h */,
 			);
 			path = MBConfig;
 			sourceTree = "<group>";
@@ -808,8 +867,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9D600D1EFBCB82001B8BEF /* MBContactViewController.m in Sources */,
 				6FF640481EFBA1A700956555 /* ViewController.m in Sources */,
+				6F9D60011EFBCAB4001B8BEF /* MBNavigationController.m in Sources */,
+				6F9D60111EFBCCD8001B8BEF /* MBLoginViewController.m in Sources */,
+				6FFDE18D1EFCAED800212E40 /* MBPlusButtonSubclass.m in Sources */,
+				6F9D60141EFBCD07001B8BEF /* MBBaseViewController.m in Sources */,
+				6F9D60041EFBCB29001B8BEF /* MBMeetBarViewController.m in Sources */,
+				6F9D600A1EFBCB6F001B8BEF /* MBProfileViewController.m in Sources */,
 				6FF640471EFBA1A700956555 /* AppDelegate.m in Sources */,
+				6F9D5FFE1EFBCA7F001B8BEF /* MBTabBarController.m in Sources */,
+				6F9D60071EFBCB54001B8BEF /* MBConversationListViewController.m in Sources */,
 				6FAE4A5A1EFA230600B4706C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -960,7 +1028,10 @@
 			baseConfigurationReference = 365CB82FF5FF1011B756A538 /* Pods-MeetBar_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeetBar_Project/MBExpand/MBConfig/MBPrefixHeader.pch";
 				INFOPLIST_FILE = MeetBar_Project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -974,7 +1045,10 @@
 			baseConfigurationReference = 438D0608316B55AA6603CEA6 /* Pods-MeetBar_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = CMKJ5NH5EV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeetBar_Project/MBExpand/MBConfig/MBPrefixHeader.pch";
 				INFOPLIST_FILE = MeetBar_Project/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
